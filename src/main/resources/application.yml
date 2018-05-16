@@ -16,14 +16,15 @@ app:
         max-lifetime: 2000000
         connection-timeout: 60000
 
-###   MySQL Tenant A Settings - "tenant_a"
+###   MySQL Tenant B Settings - "tenant_b"
 ###
     second:
       url: jdbc:mysql://127.0.0.1/tenant_b?useSSL=false
       platform: mysql
       username: devuser
       password: devuser1
-###   MySQL Tenant A Settings - "tenant_a"
+      
+###   MySQL Tenant C Settings - "tenant_c"
 ###
 
     third:
